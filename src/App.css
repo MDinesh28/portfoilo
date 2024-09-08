@@ -1,0 +1,94 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the entire app */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Center the content of the app */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  color: #fff;
+  background-color: #007acc; /* Dark Blue */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings within sections */
+section h2 {
+  color: #007acc; /* Dark Blue */
+  margin-bottom: 15px;
+  border-bottom: 2px solid #007acc; /* Underline with color */
+  padding-bottom: 10px;
+}
+
+/* Blog writeups */
+section.blog-writeups h3 {
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Skills section styling */
+section.skills {
+  background-color: #e8f5e9; /* Light Green */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Projects section styling */
+section.projects {
+  background-color: #fce4ec; /* Light Pink */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Introduction section styling */
+section.introduction {
+  background-color: #fff3e0; /* Light Orange */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Contact section styling */
+section.contact {
+  background-color: #e0f7fa; /* Light Cyan */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  section {
+    padding: 10px;
+  }
+}
